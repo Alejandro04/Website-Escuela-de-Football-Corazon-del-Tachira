@@ -6,7 +6,6 @@ import { WhatsAppButton } from "@/components/whatsapp-button";
 import { Reveal } from "@/components/reveal";
 import { categories } from "@/lib/data/categories";
 import { news } from "@/lib/data/news";
-import { site } from "@/lib/data/site";
 
 export default function HomePage() {
   return (
