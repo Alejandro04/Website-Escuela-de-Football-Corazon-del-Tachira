@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Geist, Geist_Mono } from "next/font/google";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 import "./globals.css";
 
 const bebasNeue = Bebas_Neue({
@@ -42,7 +45,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${bebasNeue.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
     >
       <body className="min-h-screen flex flex-col bg-brand-white text-brand-black">
-        {children}
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+        <WhatsAppButton variant="floating" />
       </body>
     </html>
   );
