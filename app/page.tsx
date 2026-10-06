@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Hero } from "@/components/hero";
 import { SectionTitle } from "@/components/section-title";
 import { CategoryCard } from "@/components/category-card";
@@ -90,12 +91,12 @@ export default function HomePage() {
             ))}
           </div>
           <div className="mt-12 text-center">
-            <a
+            <Link
               href="/noticias"
               className="inline-flex items-center gap-2 font-display text-base uppercase tracking-widest text-brand-red hover:text-brand-red-dark"
             >
               Ver todas las noticias <span aria-hidden="true">→</span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
