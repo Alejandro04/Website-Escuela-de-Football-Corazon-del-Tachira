@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { news } from "@/lib/data/news";
 
+export const dynamic = "force-static";
+
 const BASE = "https://corazondeltachirafc.com"; // TODO: usuario — dominio real
 
 export default function sitemap(): MetadataRoute.Sitemap {
