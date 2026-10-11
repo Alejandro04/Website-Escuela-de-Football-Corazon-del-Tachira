@@ -33,7 +33,7 @@ export function Hero({
           </span>
         )}
         <Image
-          src="/escudo.png"
+          src="/escudo_sin_fondo.png"
           alt="Escudo Corazón del Táchira FC"
           width={180}
           height={180}

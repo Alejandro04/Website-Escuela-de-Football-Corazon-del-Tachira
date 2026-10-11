@@ -44,7 +44,7 @@ export function Header() {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/escudo.png"
+              src="/escudo_sin_fondo.png"
               alt="Escudo Corazón del Táchira FC"
               width={40}
               height={40}

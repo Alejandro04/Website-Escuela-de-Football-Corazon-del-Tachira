@@ -11,7 +11,7 @@ export function Footer() {
         <div className="lg:col-span-2">
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/escudo.png"
+              src="/escudo_sin_fondo.png"
               alt="Escudo Corazón del Táchira FC"
               width={48}
               height={48}

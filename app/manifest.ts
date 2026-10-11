@@ -11,7 +11,7 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#BD1C24",
     icons: [
       {
-        src: "/escudo.png",
+        src: "/escudo_sin_fondo.png",
         sizes: "any",
         type: "image/png",
         purpose: "any",
